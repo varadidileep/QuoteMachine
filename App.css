@@ -1,0 +1,40 @@
+*{
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: blue;
+}
+#quote-box{
+  background-color: white;
+  width: 40rem;
+  margin: 10rem auto;
+  padding: 3rem;
+  border-radius: 5px;
+}
+
+#text{
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+#author{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.1rem;
+}
+#new-quote{
+  background-color: blue;
+  border: none;
+  color: wheat;
+  padding: .7rem 1rem;
+  font-size: .9rem;
+  font-weight: bold;
+  border-radius:2px;
+  outline: none;
+  cursor: pointer;
+}
+#new-quote:hover{
+  opacity: 0.;
+}
